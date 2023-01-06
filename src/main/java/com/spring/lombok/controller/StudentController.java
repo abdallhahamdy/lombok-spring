@@ -47,6 +47,14 @@ public class StudentController {
         students.add(student4);
         students.add(student5);
         students.add(student6);
+
+        System.out.println(student1.toString());
+        System.out.println(student2.toString());
+        System.out.println(student3.toString());
+        System.out.println(student4.toString());
+        System.out.println(student5.toString());
+        System.out.println(student6.toString());
+
         return students;
     }
 }

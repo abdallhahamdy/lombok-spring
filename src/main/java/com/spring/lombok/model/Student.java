@@ -7,6 +7,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+@ToString
 public class Student {
 
     private  Long id;
@@ -16,6 +17,5 @@ public class Student {
     private  String address;
 
     private  String age;
-
 
 }
